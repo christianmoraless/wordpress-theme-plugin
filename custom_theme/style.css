@@ -1,0 +1,168 @@
+/*
+    Theme Name: Custom Theme
+    Theme URI:  https://www.linkedin.com/in/christian-morales-63b2a8196/
+    Description: Creation of a theme with different functions for technical admissions test
+    Creation of a theme with different functions for technical admissions test
+    Version: 1
+    Author: Christian Morales
+    Author URL: https://www.linkedin.com/in/christian-morales-63b2a8196/
+*/
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+#logo{
+    width: 200px;
+}
+#nav a{
+    color: #000;
+}
+#newsletter{
+    background-color: #DD002B;
+    padding: 100px 0px;
+    color: #fff;
+}
+#newsletter #button-subscribe {
+    background-color: #9D2A0D;
+    color: #fff;
+}
+#formNewsletter{
+    width: 500px;
+}
+
+#banner{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/background-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    color: #fff;
+}
+#banner h1{
+    font-size:60px;
+}
+#banner #btn-banner{
+    background-color: #DD002B;
+    color: #fff;
+}
+
+#info{
+    background-color: #DD002B;
+    color: #fff;
+}
+
+#best-meals h1{
+    font-size: 60px;
+}
+#best-meals h3{
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+}
+
+.separator{
+    height: 2px !important;
+    background-color: #DD002B;
+}
+
+#restaurant-menu-items .restaurant-menu-item h2{
+    color: #DD002B;
+    font-weight: 600;
+    font-size: 35px;
+}
+#restaurant-menu-items .restaurant-menu-item p{
+    color: #000;
+}
+#restaurant-menu-items .restaurant-menu-item .price{
+    color: #DD002B;
+    font-weight: 800;
+    font-family: 'Alkatra', cursive;
+    font-size: 35px;
+}
+#restaurant-menu-items .see-menu{
+    background-color: #DD002B;
+    color: #fff;
+}
+
+#why-choose-us .description{
+    padding: 0px 50px;
+    color: #fff;
+}
+
+#why-choose-us .description h4{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+}
+#why-choose-us .description h1{
+    font-size: 50px;
+}
+#why-choose-us .description-container{
+    background-color: #DD002B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#why-choose-us .description p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+#menu-item-71{
+    background-color: #DD002B;
+}
+#menu-item-71 a{
+    color: #fff !important;
+}
+.link-posts{
+    text-decoration: none;
+    color: #DD002B;
+}
+@media(max-width:420px){
+    #logo{
+        width: 150px;
+    }
+    #banner h1{
+        font-size:30px;
+    }
+    #info{
+        display: none;
+    }
+    #newsletter h1{
+        font-size:22px;
+    }
+    #footer .footer-item{
+        text-align: center;
+    }
+
+    #best-meals h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    #best-meals h3{
+        text-align: center;
+    }
+
+    #restaurant-menu-items .restaurant-menu-item .item-content .title{
+        text-align: center;
+    }
+    #restaurant-menu-items .restaurant-menu-item .item-content .description{
+        text-align: center;
+    }
+    #restaurant-menu-items .restaurant-menu-item .item-content .price{
+        text-align: center;
+    }
+
+    #why-choose-us .description{
+        padding: 40px 20px;
+    }
+    #why-choose-us .description h1{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:980px){
+    #why-choose-us .description h1{
+        font-size: 35px;
+        text-align: center;
+    }
+}
