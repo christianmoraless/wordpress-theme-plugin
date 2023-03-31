@@ -11,6 +11,7 @@
                 </div>
             </div>
         </section>
+        <span class="ir-arriba p-3"><i class="bi bi-arrow-up"></i></span>
         <footer id="footer">
             <div class="container py-5">
                 <div class="row">
@@ -34,7 +35,11 @@
                 </div>
             </div>
         </footer>
+        
         <script src="<?php bloginfo('template_url')?>/js/bootstrap/bootstrap.min.js"></script>
+        <script src="<?php bloginfo('template_url')?>/js/jquery/jquery.js"></script>
+	    <script src="<?php bloginfo('template_url')?>/js/jquery/ir-arriba.js"></script>
+
         <?php wp_footer(); ?>
     </body>
 </html>

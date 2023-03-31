@@ -117,6 +117,17 @@
     text-decoration: none;
     color: #DD002B;
 }
+.ir-arriba{
+	display: none;
+	background: rgba(0,0,0,.8);
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 50%;
+}
 @media(max-width:420px){
     #logo{
         width: 150px;
@@ -157,6 +168,18 @@
     }
     #why-choose-us .description h1{
         font-size: 35px;
+    }
+
+    .ir-arriba{
+        display: none;
+        background: rgba(0,0,0,.8);
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
     }
 }
 
